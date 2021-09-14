@@ -1,0 +1,133 @@
+body{
+  background: url(https://art-nto.ru/800/600/https/www.nastroy.net/pic/images/201811/400073-1541923211.jpg) no-repeat;
+  -moz-background-size: 100%; 
+  -webkit-background-size: 100%;
+  -o-background-size: 100%; 
+  background-size: 100%;  
+  font-family: 'Dancing Script', cursive;
+  line-height: 1.6px;
+  box-sizing: border-box;
+  text-align: center;
+
+}
+/* Заглавие */
+.title{
+  margin: 0 auto;
+  font-size: 25px;
+}
+
+/*ПОЛЕ ВВОДА       */
+.txt{
+  height: 30px;
+  font-family: 'Sarabun', sans-serif;
+  font-size: 20px;
+  display: block;
+  margin:10px ;
+  outline:none;
+  border-width: 5px;
+  border-color: #FBCEFD;
+  border-radius: 10px;
+  resize: none;
+  background-color: #F8F4FF;
+  display: inline-block;
+  overflow:hidden;
+}
+
+/* Кнопки */
+.btn__NewBlock{
+  position: absolute;
+  top: 80px ;
+  border: 0;
+  padding: 10px 15px ;
+  border-radius: 30px;
+  background: rgb(148, 102, 201) ; 
+  color: #ffffff;
+  transform: all 0.1 ease;
+  font-size: 16px;
+  font-family: 'Sarabun', sans-serif;
+
+}
+.btn__NewBlock:hover{
+  background: rgb(141, 97, 192) ;
+}
+.btn__NewBlock:active{
+  background: rgb(134, 71, 206) ;
+}
+
+/*Новая задача          */
+.task{
+  font-family: 'Sarabun', sans-serif;
+  margin: 5px auto;
+  background: #ee95e67a;
+  max-width: 500px;
+  border-radius: 20px;
+  display: flex;
+  align-items: flex-start;
+
+}
+.box__text{
+  flex:2;
+  overflow-x:hidden;
+  font-size: 20px;
+  word-wrap: break-word;
+  white-space: normal;
+}
+.box__btn{
+  flex:1;
+  display: flex;
+  margin: auto;
+}
+.text__task{
+  text-align: left;
+  text-indent: 25px;
+  line-height: 1.5;
+  font-size: 25px;
+  margin: 5px;
+}
+
+/*Выполненая задача          */
+.taskAkv{
+  background:rgba(0, 119, 255, 0.418);
+  color: #3b1131;
+}
+/* Кнопка выполнено */
+.btn_success{
+  margin: 5px ;
+    border: 0;
+    padding: 10px 15px ;
+    border-radius: 30px;
+    background: rgba(102, 201, 127, 0.575) ; 
+    color: #000000;
+    transform: all 0.1 ease;
+    font-size: 16px;
+    font-family: 'Sarabun', sans-serif;
+    padding-right:auto;
+  }
+.btn_success:hover{
+  background: rgba(76, 199, 107, 0.575) ; 
+  }
+.btn_success:active{
+  background: rgba(34, 104, 52, 0.575) ; 
+  }
+
+
+/* кнопка удалить */
+.btn_delite{
+  margin: 5px ;
+    
+    border: 0;
+    padding: 10px 15px ;
+    border-radius: 30px;
+    background:rgba(255, 0, 0, 0.829) ; 
+    color: #ffffff;
+    transform: all 0.1 ease;
+    font-size: 16px;
+    font-family: 'Sarabun', sans-serif;
+  
+  }
+  .btn_delite:hover{
+    background: rgba(218, 2, 2, 0.829)  ;
+  }
+  .btn_deliteе:active{
+    background: rgba(151, 0, 0, 0.829)  ;
+  }
